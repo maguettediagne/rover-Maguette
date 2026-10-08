@@ -1,0 +1,53 @@
+### Gradle ###
+.gradle/
+build/
+!gradle/wrapper/gradle-wrapper.jar
+!**/src/main/**/build/
+!**/src/test/**/build/
+
+### Jar copié à la racine pour lancer « java -jar rover.jar input.txt » ###
+/rover.jar
+
+### IntelliJ IDEA ###
+.idea/
+*.iws
+*.iml
+*.ipr
+out/
+!**/src/main/**/out/
+!**/src/test/**/out/
+
+### Eclipse / STS ###
+.apt_generated
+.classpath
+.factorypath
+.project
+.settings
+.springBeans
+.sts4-cache
+bin/
+!**/src/main/**/bin/
+!**/src/test/**/bin/
+
+### NetBeans ###
+/nbproject/private/
+/nbbuild/
+/dist/
+/nbdist/
+/.nb-gradle/
+
+### VS Code ###
+.vscode/
+
+### Fichiers temporaires et journaux ###
+*.tmp
+*.log
+*.swp
+*~
+hs_err_pid*.log
+replay_pid*.log
+
+### Système ###
+.DS_Store
+Thumbs.db
+desktop.ini
